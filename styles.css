@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: blue;                                                           
+    padding: 20px 100px;
+    position: fixed;
+    vertical-align: middle;
+    
+}
+
+nav h2 {
+ position: relative;
+ top: 20px;
+ color: white;
+ 
+   
+}
+
+.nav-items {
+    display: inline;
+    float: right;
+    margin: 0px 10px;
+}
+
+.nav-items a {
+    color: white;
+}
+
+main {
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    
+    height: auto;
+}
+
+form {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    
+}
+
+form h3 {
+    text-align: center;
+}
+
+.form-control {
+    display: block;
+    margin: 5px auto;
+    width: 25%;
+    
+}
+
+.submitBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    
+}
